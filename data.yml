@@ -1,0 +1,27 @@
+prod:
+  sender:
+    email: your.personal@gmail.com
+  receivers:
+    - wiyif12152@biohorta.com
+    - wiyif12152@biohorta.com
+    - wiyif12152@biohorta.com
+    - wiyif12152@biohorta.com
+    - wiyif12152@biohorta.com
+  subject: This is a test subject for email
+  config:
+    smtp: smtp.gmail.com
+    port: 587
+dev:
+  sender:
+    email: your.personal@gmail.com
+  receivers:
+    - wiyif12152@biohorta.com
+    - wiyif12152@biohorta.com
+    - wiyif12152@biohorta.com
+    - wiyif12152@biohorta.com
+    - wiyif12152@biohorta.com
+  subject: This is a test subject for email
+  config:
+    smtp: 127.0.0.1
+    port: 1025
+    template: body.html
